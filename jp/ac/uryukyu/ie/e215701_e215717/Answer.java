@@ -1,25 +1,25 @@
 package jp.ac.uryukyu.ie.e215701_e215717;
 
 class Answer {
-    private int Touma;
-    private int Akamine;
-    private int Wada;
+    private int ToumaPoint;
+    private int AkaminePoint;
+    private int WadaPoint;
     
-    Answer(int Touma, int Akamine, int Wada){
-        this.Touma = Touma;
-        this.Akamine = Akamine;
-        this.Wada = Wada;
+    Answer(int ToumaPoint, int AkaminePoint, int WadaPoint){
+        this.ToumaPoint = ToumaPoint;
+        this.AkaminePoint = AkaminePoint;
+        this.WadaPoint = WadaPoint;
     }
 
     int getTouma(){
-        return Touma;
+        return ToumaPoint;
     }
 
     int getAkamine(){
-        return Akamine;
+        return AkaminePoint;
     }
 
     int getWada(){
-        return Wada;
+        return WadaPoint;
     }
 }
