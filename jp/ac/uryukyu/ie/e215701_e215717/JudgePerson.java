@@ -2,7 +2,7 @@ package jp.ac.uryukyu.ie.e215701_e215717;
 
 
 public class JudgePerson{
-    static int Touma =1 ;
+    static int Touma;
     static int Akamine;
     static int Wada;
     /*
@@ -11,18 +11,18 @@ public class JudgePerson{
     いるのでフィールドとJudge()にstaticをつけている。
     */
     
-    public static void Judge(){
+    public static void Judge(String name){
     /*Touma,Akamine,Wadaそれぞれ最も大きい時で条件を分岐させる */
     if (Touma > Akamine && Touma > Wada){
-        System.out.println("あなたが思い描いているのはトウマ教授ですね");
+        System.out.println(name + "が思い描いているのはトウマ教授ですね");
     }
     //Toumaが最も大きい値の時の出力↑       
     else if (Akamine > Touma && Akamine > Wada){
-        System.out.println("あなたが思い描いているのはアカミネ教授ですね");
+        System.out.println(name + "が思い描いているのはアカミネ教授ですね");
     }
     //Akamineが最も大きい値の時の出力↑
     else if (Wada > Touma && Wada > Akamine){
-        System.out.println("あなたが思い描いているのはワダ教授ですね");
+        System.out.println(name + "が思い描いているのはワダ教授ですね");
     }
     //Wadaが最も大きい値の時の出力↑
     else {System.out.println("判別ができませんでした。もう一度お試しください。");

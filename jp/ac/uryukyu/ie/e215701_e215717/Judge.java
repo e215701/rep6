@@ -1,4 +1,4 @@
-package jp.ac.uryukyu.ie.e215701_e215717;
+/* package jp.ac.uryukyu.ie.e215701_e215717;
 
 class Judge extends InfoTouma {
     Judge(int Touma, int Akamine, int Wada) {
@@ -31,3 +31,4 @@ class Judge extends InfoTouma {
 
     
 }
+ */
