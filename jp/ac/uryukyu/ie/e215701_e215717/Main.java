@@ -21,7 +21,6 @@ public class Main extends JudgePerson{
             System.out.println("'はい'と思ったら1、'違う'と思ったら２を答える");
   
             for(Integer l : list) {
-                System.out.println(l);
                 System.out.print(bigQuestion[l]);
                 int i = scanner.nextInt();
                 if (l >=0 && l <= 2){
