@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Collections;
 import java.util.ArrayList;
 
-public class Reaction extends JudgePerson{
+public class Main extends JudgePerson{
     public static void main(String[] args) {
         String bigQuestion[] = {"学生の投稿にリプをする？：", "ご飯の写真をよく投稿している？：", "講義動画を録画している？：", "Mattermostのアイコンがデンチュウ？：", "講義中にドラクエの話をする？：", "年次懇談会を開く？：", "火に関連している？：", "教授である？：", "海外の大学院を卒業している？："};
         ArrayList<Integer> list = new ArrayList<Integer>();
